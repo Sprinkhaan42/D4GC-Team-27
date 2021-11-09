@@ -27,7 +27,7 @@ x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y
 best = 0
 
 #Train the data-set 30 times
-for _ in range(30):
+for _ in range(10):
     #TRAINING YOUR DATASETS, ONLY UNCOMMENT IF THE DATA HAS BEEN GENERATED INTO A .PICKLE FILE.
     ## Split all of them up to four different variables
     ## Take all the attributes and labels and split them into four arrays
